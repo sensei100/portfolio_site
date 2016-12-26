@@ -76,7 +76,7 @@
 		<div class="large-circle"></div>
 		<div class="small-circle"></div>
 		<div class="medium-circle"></div>
-	<header>
+	</header>
 	
 	<!--NAVIGATION BAR
 	============================================= -->
@@ -100,7 +100,7 @@
 	<div id="main">
     <img id="jen" src="jen.jpg">
 		<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
-		<p class="bio">Learning has always been a big part of what I do. I am nearly finished with the Flatiron School's online fullstack web developer program and look forward to putting my new skills to work for you!</p>
+		<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
 	</div>
 
 	<!--PORTFOLIO SECTION
@@ -121,11 +121,11 @@
 			<a class="projects" id="weather" href="weather/weather.php">
 			<div class="sample" id="fourth"></div></a>
 
-      <a class="projects" id="globetrotters" href="https://globetrotters-sensei.herokuapp.com">
-      <div class="sample" id="fifth"></div></a>
+      		<a class="projects" id="globetrotters" href="https://globetrotters-sensei.herokuapp.com">
+      		<div class="sample" id="fifth"></div></a>
 
-      <a class="projects" id="library" href="https://classroom-library-sensei.herokuapp.com">
-      <div class="sample" id="sixth"></div></a>
+      		<a class="projects" id="library" href="https://classroom-library-sensei.herokuapp.com">
+      		<div class="sample" id="sixth"></div></a>
 	</div> <!--Main -->
 	
 	<!--PROCESS SECTION
@@ -166,7 +166,7 @@
             	<p>It is at this phase that your website is created. The home page will be developed first, followed by interior pages. This is the point where we add interactive content forms, shopping carts, etc. </p>
         	</div>
         	
-        		<div class="processcontentwrapper"> <div class="processIcon">
+        	<div class="processcontentwrapper"> <div class="processIcon">
 				<i class="fa fa-check-circle fa-4x"></i>
 				<h3>Testing and Delivery</h3>
 			</div>
@@ -180,8 +180,8 @@
 			</div>
             <div class="processtext">
             	<p>I would be happy to continue working with you on updating your site in the future.  I can help with regular backups, Wordpress upgrades, additional plugin installation, etc.  </p>
+        	</div>
         </div> <!--Process Container -->
-
 	</div> <!--Process-->
 
 	<!--CONTACT SECTION
@@ -197,10 +197,10 @@
     	<div id="modal-container">
     	<section id="modal-box">
     	<button id="hide">x</button>
- 
-<div class="container">
-	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
+ 	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
 	
 			<?php echo $result; ?>
 			<h2 id="newsletter-header">Lets talk about how we can work together!</h2>
@@ -228,6 +228,7 @@
     	</div> <!--col-->
     </div> <!--row-->
 </div> <!--container-->
+</div>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
