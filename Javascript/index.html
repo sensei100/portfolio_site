@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+	<title>Learning Javascript</title>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" href="finger.css">
+	<link href='https://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+
+	<h1>How many fingers am I holding up?</h1>
+	
+	<img src="Images/Hands.jpg" />
+	
+	<h2>Pick a number between 0 and 10</h2>
+	
+	<input id="userResponse" />
+	  
+	<div id="button">
+	
+	  <button id="myButton">Submit</button>
+	
+	</div>
+	
+	<a href="../index.html">Return to home page</a>
+
+
+	
+	
+	
+<script type="text/javascript">
+	
+	document.getElementById("myButton").onclick = function() {
+	
+	var x = Math.random();
+	
+	  x = 10 * x;
+	  
+	  x= Math.floor(x);
+	  	
+	
+	if (x ==document.getElementById("userResponse").value) {
+	
+	  alert("That's correct!");
+	  
+	}
+	
+	else {
+	
+	  alert("That's wrong! My number was " + x);
+	  
+	}
+	
+}
+		
+		
+</script>	
+</body>
+</html>

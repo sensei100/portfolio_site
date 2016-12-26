@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+    <title>Jennifer's BBC</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <style> 
+	body {
+    	margin: 0;
+    }
+    
+    #topbar {
+    	background-color: #000000;
+    	width: 100%;
+    	height: 40px;
+    }
+    
+    .fixedwidth {
+    	width: 1050px;
+    	margin: 0 auto;
+    	background-color: #000000;
+    	margin-left: 125px;
+		height: 40px;
+		color: white;
+		font-family: Arial,Helvetica,freesans,sans-serif;	
+		font-size: 13px;
+		font-weight: bold;
+    }
+    
+    #logo {
+    	display: inline;
+    	padding: 8px 10px 7px 15px;
+    	border-right: 1px solid #434343;
+    	float: left;
+    }
+    
+    #signindiv {
+    	display: inline;
+    	padding: 5px 115px 14px 10px;
+    	font-size: 13px;
+		font-weight: bold;
+		border-right: 1px solid #434343;
+		position: relative;
+		bottom: 4px;
+		float: left;
+    }
+    
+    #signindiv img {
+    	display: inline;
+   		position: relative;
+ 		top: 5px;
+    }
+  
+  	#signindiv p {
+  		display: inline;
+  		position: relative;
+  		top: 5px;
+  	}
+  	
+  	#topmenudiv {
+  		float: left;
+  	}
+  	
+  	#topmenudiv ul {
+  		margin: 0;
+  		padding: 0;
+  	}
+  	
+  	#topmenudiv li {
+  		list-style: none;
+  		font-weight: bold;
+  		font-family: Arial,Helvetica,freesans,sans-serif;	
+  		display: inline;
+  		padding: 10px 15px 10px 10px;
+  		border-right: 1px solid #434343;
+  		margin: 0;
+  	}
+    
+ 	#searchdiv {
+ 		float:left;
+ 		padding: 8px 0 8px 15px;
+ 	}
+   	
+   	#searchdiv input {
+   		background-image:url("Images/Magnifier.png");
+   		background-repeat: no-repeat;
+   		background-position: right center;
+   		height: 18px;
+   		width: 200px;
+   		font-weight: bold;
+   		color: black;
+   		border: none;
+   		font-size: 12px;
+   		padding: 3px;
+   	}
+    
+    #content {
+    	width: 100%;
+    	background-color: #E7E8E1;
+    	height: 500px;
+    	margin: 0;
+    	padding: 0;
+    	clear: both;
+    }
+    
+    #date {
+    	font-family: Arial,Helvetica,freesans,sans-serif;
+    	font-size: 20px;
+    	text-align: right;
+    	margin: 0;
+    	color: #4A4A4A;
+    	text-transform: uppercase;
+    	font-weight: bold;
+    	padding: 15px;
+    }
+    
+    #headline {
+    	background-image: url("Images/Brussels.jpg");
+    	height: 368px;
+    	width: 620px;
+   		margin-left: 20px;
+    	float: left;
+    	
+    }
+    
+    h1 {
+    	color: white;
+    	font-family: Arial,Helvetica,freesans,sans-serif;
+    	font-size: 28px;
+    	padding-top: 220px;
+    	font-weight: bold;
+    	margin-left: 20px;
+    }
+    
+    #description {
+    	color: #BEBEBE;
+    	font-family: Arial,Helvetica,freesans,sans-serif;
+    	font-size: 17px;
+    	margin-left: 20px;
+    	margin-top: -10px;
+    	
+    }
+    
+    .topic {
+    	color: #BEBEBE;
+    	font-family: Arial,Helvetica,freesans,sans-serif;
+    	font-size: 17px;
+    	text-transform: uppercase;
+    	text-size: 13px;
+    	margin-left: 25px;
+    	border-left: 2px solid red;
+    	padding-left: 5px;
+    	
+    	
+    }
+    
+    .news {
+    	margin-left: 10px;
+    	width: 300px;
+    	height: 180px;
+    	float: left;	
+    }
+    
+    #mali1 {
+    	background-image:url("Images/Mali.jpg");
+    }
+    
+    .newsline {
+    	color: white;
+    	font-family: Arial,Helvetica,freesans,sans-serif;
+    	font-size: 20px;
+    	
+    	padding-top: 90px;
+    	padding-left: 5px;
+    	
+    }
+    
+    #africa {
+    	margin-top: -10px;
+    	font-size: 14px;
+    	border-left: 2px solid aqua;
+    }
+    
+    #mali2 {
+    	background-image: url("Images/Mali2.jpg");
+    	font-size: 14px; 
+    }
+    
+    #mali {
+    	border-left: 2px solid red;
+    	margin-top: -10px;
+    	font-size: 14px;
+    }
+    
+    #football {
+    	background-image: url("Images/Football.jpg");
+    	margin-top: 10px;
+    	} 
+    	
+    #tennis {
+    	background-image: url("Images/Tennis.jpg");
+    	margin-top: 10px;
+    }
+    
+    #soccer {
+    	border-left: 2px solid yellow;
+    	margin-top: -10px;
+    	font-size: 14px;
+    }
+    
+    #ten {
+    	border-left: 2px solid yellow;
+    	margin-top: -10px;
+    	font-size: 14px;
+    }
+    
+    #malihead {
+    	margin-top: -15px;
+    }
+    
+    a {
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    text-decoration: none;
+}
+    
+    </style>  
+    
+   
+</head>
+
+<body>
+
+	<div id="container">
+	
+		<div id="topbar">
+		
+			<div class="fixedwidth">
+			
+				<img id="logo" src="Images/Logo.png"/>
+				<div id="signindiv">
+					<p><img src="Images/Signin.png"/>Sign In</p>
+				
+				</div>
+			
+				<div id="topmenudiv">
+					
+					<ul>
+						
+						<li>News</li>
+						<li>Sport</li>
+						<li>Weather</li>
+						<li>Shop</li>
+						<li>Earth</li>
+						<li>Travel</li>
+						
+						<li>More<img id="dropdown" src="Images/Dropdown.png" /></li>
+					
+					</ul>
+				
+				</div>
+					
+					<div id="searchdiv">
+						
+						<input type="text" placeholder="Search"/>
+					
+					</div>
+			
+			</div>
+		
+		</div>
+		<div id="content">
+			
+			<p id="date">Sunday, 22 November</p>
+			
+			<div id="headline">
+				
+				<h1>Belgium 'looking for several suspects'</h1>
+				
+				<p id="description">Belgium's interior minister says police forces are 'looking for several terror suspects', as the capital, Brussels, enters a second day of a security lockdown.</p>
+				
+				<p class="topic">Europe</p>
+			
+			</div>
+			<div class="news" id="mali1">
+				
+				<img id="live" src="Images/Live.png" />
+				
+				<h2 class="newsline" id="malihead">Mali hotel attack: Latest updates</h2>
+				
+				<p class="topic" id="africa">Africa</p>
+				
+			</div>
+			
+			<div class="news" id="mali2">
+			
+				<h2 class="newsline">Mali hunts for hotel attack suspects</h2>
+				<p class="topic" id="mali">Africa</p>
+			</div>	
+			<div class="news" id="football">
+			
+				<h2 class="newsline">Late goal gives Etolle narrow advantage</h2>
+				<p class="topic" id="soccer">African Football</p>
+			</div>
+			<div class="news" id="tennis">
+			
+				<h2 class="newsline">GB delay travel to Davis Cup final</h2>
+				<p class="topic" id="ten">tennis</p>
+			
+			</div>
+			</div>	
+		</div>
+		
+	</div>
+ <a href="../index.html">Return to home page</a>
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+body {
+  background-color: #ADC45A;
+}
+
+h1 {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #361A26;
+}
+
+h2 {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #B91714;
+}
+
+img {
+  display: block;
+  width: 40%;
+  height: auto;
+  margin: 50px auto 20px auto;
+  border: 2px solid #EA6F08;
+  
+  }
+
+#answer {
+  
+  margin-left: 40%;
+  margin-top: 50px; 
+}
+
+input {
+  padding: 30px;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 200px;
+  width: 200px;
+  height: 300px;
+  margin-bottom: 20px;
+  text-align: center; 
+  margin-left: 40%;
+}
+
+#myButton {
+  padding: 20px;
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 20px;
+  background-color: #EA6F08;
+  transition: background-color 0.3s;
+  transition: font-size 0.3s;
+  margin-left: 46%;
+  border-radius: 80%;
+  border: 1px solid #361A26;
+}
+  
+#myButton:hover {
+  background-color: #FF8D10;
+  font-size: 25px;
+}
+
+a {
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 20px;
+  color: #361A26;
+}
