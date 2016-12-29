@@ -49,11 +49,19 @@ input, select { vertical-align: middle; }
 /* Write your CSS styles here */
 /* COLOR REFERENCES
 
-Rust:		#BF4D28
+Original Colors:
+Rust:		#F7882F
 Cream: 		#F6F7BD
-Brown:		#655643
-Teal:		#80BCA3
-Goldenrod: 	#E6AC27
+Brown:		#3C3C3C
+Teal:		#6B7A8F
+Goldenrod: 	#F7C331
+
+Recent Colors:
+Blueberry:	#6B7A8F
+Apricot:	#F7882F
+Citrus:		#F7C331
+Apple Core:	#F6F7BD
+Charcoal: 	#3C3C3C
 
 */
 
@@ -92,7 +100,7 @@ header {
 h1 {
 	font-family: 'Niconne', cursive;
 	font-weight: bold;
-	color: #BF4D28;
+	color: #6B7A8F;
 	font-size: 5em;
 	margin-top: 0;
 	margin-left: 4.0em;
@@ -105,10 +113,10 @@ h1 {
 #job {
 	font-family: 'Andada', serif;
 	font-size: 1.875em;
-	color: #655643;
+	color: #3C3C3C;
 	margin-left: 370px;
 	text-transform: uppercase;
-	border-bottom: 5px solid #655643;
+	border-bottom: 5px solid #3C3C3C;
 	padding-bottom: 20px;
 	width: 475px;
 	display: inline;
@@ -123,7 +131,7 @@ h1 {
 	-moz-border-radius: 100%;
 	border-radius: 100%;
 	opacity: 0.65;
-	background-color:#BF4D28;
+	background-color:#F7882F;
 	line-height:100px;
 	margin-top: -50px;
 	margin-left: 20px;
@@ -137,7 +145,7 @@ h1 {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-	background-color:#E6AC27;
+	background-color:#F7C331;
 	opacity: 0.65;
 	line-height:100px;
 	margin-top: -225px;
@@ -152,7 +160,7 @@ h1 {
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 	border-radius: 100%;
-	background-color: #80BCA3;
+	background-color: #6B7A8F;
 	opacity: 0.65;
 	line-height:100px;
 	margin-top: 30px;
@@ -172,7 +180,7 @@ h1 {
 }
 
 .navbar {
-	background-color: #E6AC27;
+	background-color: #F7C331;
 	height: 15px;
 	width: 100%;
 	display: block;
@@ -185,26 +193,26 @@ h1 {
 	display: inline;
 	font-size: 20px;
 	font-family: 'Andada', serif;
-	color: #655643;
+	color: #3C3C3C;
 	padding-right: 70px;
 	margin-left: 100px;
 }
 
 a:hover {
-	color: #BF4D28;
+	color: #F7882F;
 	font-style: bold;
 	font-size: 24px;
 }
 
 a {
 	text-decoration: none;
-	color: #655643;
+	color: #3C3C3C;
 }
 
 /* === BANNER=== */
 
 .banner {
-	background: url("skillcrush-desktop.jpg");
+	background: url("flowers.jpg");
 	width: 100%;
 	height: 600px;
   background-size: cover;
@@ -216,21 +224,20 @@ a {
 
 #main {
 	display: block;
-	background-color: #80BCA3;
+	background-color: #6B7A8F;
 	margin-top: -100px;
 	height: 450px;
 	line-height: 35px;
 }
 
 #jen {
-  float: left;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 50px;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
 }
 
 .intro {
-	color: #655643;
+	color: #3C3C3C;
 	font-family: 'Bubbler One', sans-serif;
 	font-size: 35px;
 	text-align: center;
@@ -246,7 +253,7 @@ a {
   padding-left: 300px;
 	padding-bottom: 100px;
   margin-right: 100px;
-  color: #655643;
+  color: #3C3C3C;
   font-family: 'Bubbler One', sans-serif;
   font-size: 35px;
   text-align: center;
@@ -259,7 +266,7 @@ a {
 #portfolio {
 	height: 800px;
 	width: 100%;
-	background-color: #BF4D28;
+	background-color: #F7882F;
 	margin-top: -50px;
 }
 
@@ -350,8 +357,19 @@ a {
   background-size: cover;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
     filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */ 
+}
+
+#seventh {
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  margin-left: 50px;
+  background: url("cover-to-cover.png") no-repeat center center;
+  background-size: cover;
+  filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-  
 }
 
 #first:hover {
@@ -369,7 +387,7 @@ a {
   	content: "";
   	font-family: 'Andada', serif;
   	font-weight: bold;
-  	color: #80BCA3;
+  	color: #6B7A8F;
   	font-size: 30px;
   	margin-top: 150px;
   	margin-left: auto;
@@ -467,13 +485,30 @@ a {
     overflow: hidden; 
 }
 
+#seventh:hover {
+    display: inline-block;
+    filter:grayscale(0%); 
+  	-webkit-filter: grayscale(0%);
+  	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    overflow: hidden;
+    border: 5px solid rgba(101,86,67,0.65);
+}
+
+#seventh:hover:after {
+    content: "Cover to Cover"; 
+    font-size: 20px;
+    overflow: hidden; 
+}
+
+
+
 
 /* === PROCESS=== */
 
 #process {
 	height: auto;
 	width: 100%;
-	background-color: #E6AC27;
+	background-color: #F7C331;
 }
 
 #processcontainer { 
@@ -509,27 +544,27 @@ a {
 }
 
 .fa-pencil-square {
-	color: #BF4D28;
+	color: #F7882F;
 	}
 
 .fa-question-circle {
-	color: #80BCA3;
+	color: #6B7A8F;
 }
 
 .fa-paint-brush {
-	color: #655643;
+	color: #3C3C3C;
 	}
 	
 .fa-code  {
-	color: #80BCA3;
+	color: #6B7A8F;
 	}
 	
 .fa-check-circle  {
-	color: #BF4D28;
+	color: #F7882F;
 }
 
 .fa-wrench {
-	color: #655643;
+	color: #3C3C3C;
 }
 
 /* === CONTACT ME=== */
@@ -569,7 +604,7 @@ a {
 #modal-box {
   	background-color: #F6F7BD;
   	border-radius: 5px;
-  	border: 1px solid #BF4D28;
+  	border: 1px solid #F7882F;
   	margin: -300px auto;
   	position: relative;
   	top: 50%;
@@ -584,9 +619,9 @@ a {
 }
  
 #show {
-  	background: #BF4D28;
+  	background: #F7882F;
   	border-radius: 5px;
-  	border: 4px outset #BF4D28;
+  	border: 4px outset #F7882F;
   	color: #F6F7BD;
   	font-size: 2em;
   	margin-left: 45%;
@@ -633,9 +668,9 @@ textarea {
 	font-size: 20px;
 	font-weight: bold;
 	color: #F6F7BD;
-	background-color: #80BCA3;
+	background-color: #6B7A8F;
 	border-radius: 10px 10px 10px 10px;
-	border-color: #80BCA3;
+	border-color: #6B7A8F;
 	margin: 5px auto;
 }
 

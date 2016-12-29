@@ -98,7 +98,7 @@
 	<!--ABOUT ME
 	============================================= -->
 	<div id="main">
-    <img id="jen" src="jen.jpg">
+    <img class="sample" id="jen" src="jen.jpg">
 		<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
 		<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
 	</div>
@@ -108,8 +108,7 @@
 	<div name="portfolio" id="portfolio">
 		<h2 class="label">Portfolio</h2>
 			<a class="projects" id="resume" href="Resume/index.html">
-			<div class="sample" id="first">
-			</div></a>
+			<div class="sample" id="first"></div></a>
 	
 			<a class="projects" id="hb" href="http://healthbuilders.org">
 	 	 	<div class="sample" id="second"></div></a>
@@ -126,6 +125,9 @@
 
       		<a class="projects" id="library" href="https://classroom-library-sensei.herokuapp.com">
       		<div class="sample" id="sixth"></div></a>
+      		
+      		<a class="projects" id="library" href="https://cover-to-cover.herokuapp.com/#/">
+      		<div class="sample" id="seventh"></div></a>
 	</div> <!--Main -->
 	
 	<!--PROCESS SECTION
