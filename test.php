@@ -71,7 +71,7 @@
 	============================================= -->
 	<header>
 		<h1>Jennifer Anton</h1>
-		<h2 id="job">Front End Developer</h2>
+		<h2 id="job">Full Stack Developer</h2>
 		
 		<div class="large-circle"></div>
 		<div class="small-circle"></div>
