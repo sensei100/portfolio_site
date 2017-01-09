@@ -110,7 +110,7 @@
 	
 	<!--Banner
 	============================================= -->
-	<div class="banner">
+	<div class="banner" data-type="background" data-speed="5">
 	
 	
 	</div> <!--banner -->
@@ -118,9 +118,12 @@
 	<!--ABOUT ME
 	============================================= -->
 	<div id="main">
-    <img class="sample" id="jen" src="jen.jpg">
-		<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
-		<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
+		<div class="container">
+			<div class="row">
+    			<img class="sample img-responsive .card-columns" id="jen" src="jen.jpg">
+				<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
+				<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
+		</div>  <!--end row -->
 	</div>
 
 	<!--PORTFOLIO SECTION
