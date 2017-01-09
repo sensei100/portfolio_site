@@ -48,6 +48,9 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
 	<!--CSS Stylesheets -->
 	<link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="style.css"/>
@@ -69,13 +72,16 @@
 
 	<!--HEADER
 	============================================= -->
-	<header>
-		<h1>Jennifer Anton</h1>
-		<h2 id="job">Full Stack Developer</h2>
-		
-		<div class="large-circle"></div>
-		<div class="small-circle"></div>
-		<div class="medium-circle"></div>
+	<header class="container-fluid">
+		<div class="row">
+			<div class="col-sm-4">
+				<img id="circles" src="circles.png">
+			</div>  <!--end col -->
+			<div class="col-sm-6">
+				<h1 class="name">Jennifer Anton</h1>
+				<h2 id="job">Full Stack Developer</h2>	
+			</div>  <!--end col -->
+		</div>  <!--end row -->
 	</header>
 	
 	<!--NAVIGATION BAR
@@ -233,8 +239,7 @@
 </div>
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>

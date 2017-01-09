@@ -91,19 +91,24 @@ html, body {
 header {
 	position: top;
 	background-color: #F6F7BD;
-	height: 300px;
+	height: auto;
 	width: 100%;
 	line-height: 12px;
-	display: block;
+	padding-bottom: 20px;
+	text-align: center;
 }
 
-h1 {
+#circles {
+	margin-left: 45%;
+}
+
+.name {
 	font-family: 'Niconne', cursive;
+	width: 100%;
 	font-weight: bold;
 	color: #6B7A8F;
 	font-size: 5em;
 	margin-top: 0;
-	margin-left: 40%;
 	margin-bottom: 70px;
 	padding-top: 60px;
 	-webkit-font-smoothing: antialiased;
@@ -114,7 +119,7 @@ h1 {
 	font-family: 'Andada', serif;
 	font-size: 1.875em;
 	color: #3C3C3C;
-	margin-left: 45%;
+	margin-left: 0;
 	text-transform: uppercase;
 	border-bottom: 5px solid #3C3C3C;
 	padding-bottom: 20px;
@@ -122,52 +127,6 @@ h1 {
 	display: inline;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
-}
-
-.large-circle {
-	width:150px;
-	height:150px;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	opacity: 0.65;
-	background-color:#F7882F;
-	line-height:100px;
-	margin-top: -50px;
-	margin-left: 20%;
-	box-shadow: 1px 2px 2px #CDE4D1;
-	border: 1px solid #3E3B3A;
-}
-
-.small-circle {
-	width:100px;
-	height:100px;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	background-color:#F7C331;
-	opacity: 0.65;
-	line-height:100px;
-	margin-top: -225px;
-	margin-left: 30%;
-	box-shadow: 1px 2px 2px #D1BFAB;
-	border: 1px solid #3E3B3A;
-}
-
-.medium-circle {
-	width:115px;
-	height:115px;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
-	background-color: #6B7A8F;
-	opacity: 0.65;
-	line-height:100px;
-	margin-top: 30px;
-	margin-left: 32%;
-	box-shadow: 1px 2px 2px #D1BFAB;
-	border: 1px solid #3E3B3A;
-	margin-bottom: 15px;
 }
 
 /* === NAVBAR=== */
@@ -502,9 +461,6 @@ a {
     overflow: hidden; 
 }
 
-
-
-
 /* === PROCESS=== */
 
 #process {
@@ -718,6 +674,9 @@ textarea {
     color: #fff;
     text-shadow: 1px 1px 1px #000;
 }
+
+/* === MEDIA QUERIES === */
+	
 
 
 
