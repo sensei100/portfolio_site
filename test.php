@@ -75,7 +75,7 @@
 	<header class="container-fluid">
 		<div class="row">
 			<div class="col-sm-4">
-				<img id="circles" src="circles.png">
+				<img id="circles" class="img-responsive" src="circles.png">
 			</div>  <!--end col -->
 			<div class="col-sm-6">
 				<h1 class="name">Jennifer Anton</h1>
@@ -86,13 +86,27 @@
 	
 	<!--NAVIGATION BAR
 	============================================= -->
-	<div class="navigation">	
-		<ul name="top" class="navbar">
-			<li class="navbarItem"><a href="#portfolio">Portfolio</a></li>
-			<li class="navbarItem"><a href="#process">Process</a></li>
-			<li class="navbarItem"><a href="#contact">Contact</a></li>
-		</ul>
-	</div> <!--navigation -->
+	<div class="navbar-wrapper">
+				<div class="navbar navbar-default" role="navigation">
+					<div class="container">
+						<div class="navbar-header">
+							<button id="hamburger" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div> <!--navbar-header -->
+						<div class="navbar-collapse collapse">
+							<ul id="top" name="top" class="nav navbar-nav">
+								<li class="navbarItem"><a href="#portfolio">Portfolio</a></li>
+								<li class="navbarItem"><a href="#process">Process</a></li>
+								<li class="navbarItem"><a href="#contact">Contact</a></li>	
+							</ul> <!--nav -->
+						</div> <!--navbar-collapse -->
+					</div> <!--container -->
+				</div> <!--navbar -->
+			</div> <!--Navbar-wrapper -->
 	
 	<!--Banner
 	============================================= -->
@@ -239,10 +253,12 @@
 </div>
 
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 <script src="scripts.js" charset="utf-8"></script>
 
 <script>
