@@ -128,34 +128,44 @@
 					<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
 					<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
 				</div>  <!--end col -->
-		</div>  <!--end row -->
+			</div>  <!--end row -->
+		</div>  <!--end container -->
 	</div>
 
 	<!--PORTFOLIO SECTION
 	============================================= -->
 	<div name="portfolio" id="portfolio">
-		<h2 class="label-header">Portfolio</h2>
-			<a class="projects" id="resume" href="Resume/index.html">
-			<div class="sample" id="first"></div></a>
-	
-			<a class="projects" id="hb" href="http://healthbuilders.org">
-	 	 	<div class="sample" id="second"></div></a>
-	  
-	
-			<a class="projects" id="game" href="mysql/index.php">
-			<div class="sample" id="third"></div></a>
-	
-			<a class="projects" id="weather" href="weather/weather.php">
-			<div class="sample" id="fourth"></div></a>
-
-      		<a class="projects" id="globetrotters" href="https://globetrotters-sensei.herokuapp.com">
-      		<div class="sample" id="fifth"></div></a>
-
-      		<a class="projects" id="library" href="https://classroom-library-sensei.herokuapp.com">
-      		<div class="sample" id="sixth"></div></a>
-      		
-      		<a class="projects" id="library" href="https://cover-to-cover.herokuapp.com/#/">
-      		<div class="sample" id="seventh"></div></a>
+		<div class="container">
+			<h2 class="label-header">Portfolio</h2>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-xs-12">
+					<a class="projects" id="hb" href="http://healthbuilders.org">
+					<div class="sample" id="second"></div></a>
+					
+					<a class="projects" id="resume" href="Resume/index.html">
+					<div class="sample" id="first"></div></a>
+				</div>  <!--end col -->
+				<div class="col-lg-3 col-md-4 col-xs-12">
+					<a class="projects" id="globetrotters" href="https://globetrotters-sensei.herokuapp.com">
+					<div class="sample" id="fifth"></div></a>
+					
+					<a class="projects" id="weather" href="weather/weather.php">
+					<div class="sample" id="fourth"></div></a>
+				</div>  <!--end col -->
+				<div class="col-lg-3 col-md-4 col-xs-12">
+					<a class="projects" id="library" href="https://cover-to-cover.herokuapp.com/#/">
+					<div class="sample" id="seventh"></div></a>
+					
+					
+					<a class="projects" id="library" href="https://classroom-library-sensei.herokuapp.com">
+					<div class="sample" id="sixth"></div></a>
+				</div>  <!--end col -->
+				<div class="col-lg-3 col-md-4 col-xs-12">
+					<a class="projects" id="game" href="mysql/index.php">
+					<div class="sample" id="third"></div></a>
+				</div>  <!--end col -->
+			</div>  <!--end row -->
+		</div>  <!--end container -->
 	</div> <!--Main -->
 	
 	<!--PROCESS SECTION

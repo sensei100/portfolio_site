@@ -82,7 +82,7 @@ html, body {
 	padding-top: 50px;
 	display: inline;
 	font-size: 2.1em;
-	margin: 100px 40%;
+	margin: 50px 40%;
 }
 
 /* === HEADER === */
@@ -197,7 +197,7 @@ a {
 .intro {
 	color: #3C3C3C;
 	font-family: 'Bubbler One', sans-serif;
-	font-size: 35px;
+	font-size: 2.0em;
 	text-align: center;
 	margin-top: 20px 15%;
 	padding-top: 50px;
@@ -210,7 +210,7 @@ a {
   	margin: 5% 15%;
   	color: #3C3C3C;
   	font-family: 'Bubbler One', sans-serif;
-  	font-size: 1.438em;
+  	font-size: 2.0em;
   	text-align: center;
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizelegibility;
@@ -505,7 +505,7 @@ a {
 }
 
 .fa-paint-brush {
-	color: #3C3C3C;
+	color: #F7C331;
 	}
 	
 .fa-code  {
@@ -517,7 +517,7 @@ a {
 }
 
 .fa-wrench {
-	color: #3C3C3C;
+	color: #F7C331;
 }
 
 /* === CONTACT ME=== */
@@ -711,6 +711,14 @@ textarea {
 	}
 }
 
+@media screen and ( max-width : 500px ) {
+	.label-header {
+		font-size:1.8em;
+		margin-left: 20%;
+	}
+
+}
+
 @media screen and ( max-width : 400px ) {	
 	.name {
 		font-size: 2.8em;
@@ -722,11 +730,31 @@ textarea {
 	}
 	
 	.label-header {
-		font-size: 1.8em;
+		font-size: 1.6em;
+		margin: 0 24%;
+		margin-bottom: 20px;
 	}
 	
 	#jen {
-		margin: 0 auto;
+		margin: 30px 7%;
+	}
+	
+	.intro {
+		padding-top: 20px;
+		font-size: 1.6em;
+	}
+	
+	.bio {
+		font-size: 1.6em;
+	}
+	
+	.sample {
+		margin-top: 30px !important;
+		margin-left: 7% !important;
+	}
+	
+	#portfolio {
+		padding-bottom: 30px;
 	}
 }
 	
