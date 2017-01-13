@@ -119,17 +119,22 @@
 	============================================= -->
 	<div id="main">
 		<div class="container">
+			<h2 class="label-header">About Me</h2>
 			<div class="row">
-    			<img class="sample img-responsive .card-columns" id="jen" src="jen.jpg">
-				<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
-				<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
+				<div class="col-sm-4 col-xs-12">
+    				<img class="sample img-responsive .card-columns" id="jen" src="jen.jpg">
+    			</div>  <!--end col -->
+    			<div class="col-sm-8 col-xs-12">
+					<p class="intro">Hi there! I’m Jennifer Anton, a fullstack web developer.</p>
+					<p class="bio">Learning has always been a big part of what I do. I have recently graduated from the Flatiron School's online full-stack web development program and look forward to putting my new skills to work for you!</p>
+				</div>  <!--end col -->
 		</div>  <!--end row -->
 	</div>
 
 	<!--PORTFOLIO SECTION
 	============================================= -->
 	<div name="portfolio" id="portfolio">
-		<h2 class="label">Portfolio</h2>
+		<h2 class="label-header">Portfolio</h2>
 			<a class="projects" id="resume" href="Resume/index.html">
 			<div class="sample" id="first"></div></a>
 	
@@ -156,7 +161,7 @@
 	<!--PROCESS SECTION
 	============================================= -->
 	<div id="process">
-		<h2 class="label">Process</h2>
+		<h2 class="label-header">Process</h2>
 		<div class = "processcontainer">
 		
 			<div class="processcontentwrapper"> <div class="processIcon">
@@ -212,7 +217,7 @@
 	<!--CONTACT SECTION
 	============================================= -->
 	<div name="contact" id="contact">
-    	<h2 class="label">Contact</h2>
+    	<h2 class="label-header">Contact</h2>
     
     	<div id="socialside">
     	</div>

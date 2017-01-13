@@ -72,17 +72,17 @@ html, body {
 	padding: 0;
 }
 
-.label {
+.label-header {
 	text-transform: uppercase;
-	border-bottom: 5px solid #F6F7BD;
+	border-bottom: 5px solid #3c3c3c;
 	padding-bottom: 10px;
 	float: none;
-	color: #F6F7BD;
+	color: #3c3c3c;
 	font-family: 'Andada', serif;
 	padding-top: 50px;
-	text-align: center;
-	font-size: 40px;
-	margin: 50px 40%;
+	display: inline;
+	font-size: 2.1em;
+	margin: 100px 40%;
 }
 
 /* === HEADER === */
@@ -184,7 +184,7 @@ a {
 #main {
 	display: block;
 	background-color: #F7882F;
-	margin-top: -100px;
+	padding-top: 50px;
 	min-height: 400px;
 }
 
@@ -192,7 +192,6 @@ a {
   	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-	padding-bottom: 200px;
 }
 
 .intro {
@@ -200,19 +199,18 @@ a {
 	font-family: 'Bubbler One', sans-serif;
 	font-size: 35px;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 20px 15%;
 	padding-top: 50px;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
 }
 
 .bio {
-	margin-top: 50px;
 	padding-bottom: 100px;
-  	margin-right: 100px;
+  	margin: 5% 15%;
   	color: #3C3C3C;
   	font-family: 'Bubbler One', sans-serif;
-  	font-size: 35px;
+  	font-size: 1.438em;
   	text-align: center;
   	-webkit-font-smoothing: antialiased;
   	text-rendering: optimizelegibility;
@@ -344,7 +342,7 @@ a {
   	content: "";
   	font-family: 'Andada', serif;
   	font-weight: bold;
-  	color: #6B7A8F;
+  	color:#F7882F;
   	font-size: 30px;
   	margin-top: 150px;
   	margin-left: auto;
@@ -462,7 +460,8 @@ a {
 #process {
 	height: auto;
 	width: 100%;
-	background-color: #F7C331;
+	background-color: #fff;
+	padding-top: 50px;
 }
 
 #processcontainer { 
@@ -472,7 +471,7 @@ a {
 
 
 #process h3 {
-    color: #F6F7BD;
+    color: #3c3c3c;
     text-transform: uppercase;
     font-family: 'Andada', serif;
     font-weight: bold;
@@ -486,7 +485,7 @@ a {
    	margin-left: 100px;
     width: 80%;
     padding-left: 2em;
-    color: #F6F7BD;
+    color: #3c3c3c;
     font-family: 'Bubbler One', sans-serif;
     font-size: 20px;
     margin-bottom: 30px;
@@ -529,6 +528,7 @@ a {
 	width: 100%;
 	background-image: url("phone.jpg");
 	background-size: cover;
+	padding-top: 50px;
 }
 
 #backToTop {
@@ -719,6 +719,14 @@ textarea {
 	#job {
 		font-size: 1.3em;
 		border-bottom: 1px solid #3C3C3C;
+	}
+	
+	.label-header {
+		font-size: 1.8em;
+	}
+	
+	#jen {
+		margin: 0 auto;
 	}
 }
 	
