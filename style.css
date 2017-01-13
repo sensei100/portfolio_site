@@ -461,12 +461,11 @@ a {
 	height: auto;
 	width: 100%;
 	background-color: #fff;
-	padding-top: 50px;
+	padding: 50px;
 }
 
-#processcontainer { 
-    margin: auto;
-    width: 100%;
+.process-container { 
+    padding-top: 50px !important;
 }
 
 
@@ -476,24 +475,18 @@ a {
     font-family: 'Andada', serif;
     font-weight: bold;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     display: inline-block;
-    margin-left: 15px;
+    
 }
 
 .processtext {
-   	margin-left: 100px;
     width: 80%;
-    padding-left: 2em;
     color: #3c3c3c;
     font-family: 'Bubbler One', sans-serif;
     font-size: 20px;
-    margin-bottom: 30px;
     line-height: 20px;
-}
-
-.fa {
-	margin-left: 30px;
+    padding-bottom: 30px;
 }
 
 .fa-pencil-square {
@@ -526,149 +519,35 @@ a {
 	position: relative;
 	height: 500px;
 	width: 100%;
-	background-image: url("phone.jpg");
+	background-image: url("page_layout.jpg");
 	background-size: cover;
 	padding-top: 50px;
+	text-align: center;
 }
 
-#backToTop {
-	margin-left: 50%;
+.contact-subheading {
+	padding: 50px;
+	font-size: 1.3em;
+}
+
+.social-media-icons {
+	display: inline;
+	padding: 50px;
+	font-size: 2.5em;
+}
+
+.social-link {
+	color: #F7C331;
+}
+
+footer {
 	font-family: 'Bubbler One', sans-serif;
-	font-size: 20px;
+	font-size: 1.3em;
+	color: #3c3c3c;
 	position: absolute;
-	bottom: 10px;
-}
-	
-#backToTop:hover {
-	color: #F6F7BD;
-}
-
-
-/* === MODAL=== */
-#modal-container {
-  	background-color: rgba(0, 0, 0, 0.5);
-  	display: none;
-  	height: 100%;
-  	left: 0px;
-  	position: fixed;
-  	top: 35%;
-  	width: 100%; 
-}
- 
-#modal-box {
-  	background-color: #F6F7BD;
-  	border-radius: 5px;
-  	border: 1px solid #F7882F;
-  	margin: -300px auto;
-  	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-  	width: 380px;
-  	height: 380px;
-  	padding: 10px;
-  	text-align: center;
-  	font-family: 'Bubbler One', sans-serif;
-  	font-size: 20px;
-  	line-height: 30px; 
-}
- 
-#show {
-  	background: #F7882F;
-  	border-radius: 5px;
-  	border: 4px outset #F7882F;
-  	color: #F6F7BD;
-  	font-size: 2em;
-  	margin-left: 45%;
-  	margin-top: 50px;
-  	font-family: 'Andada', serif;
-}
- 
-#hide {
-  	background: white;
-  	border-radius: 15px;
-  	color: #454545;
-  	display: block;
-  	float: right;
-  	font-family: monospace;
-  	font-size: 20px;
-  	margin-right: -17px;
-  	position: relative;
-  	top: -18px;
-  	width: 30px;
-}
-
-input {
-  	padding: 10px;
-  	margin-top: 10px;
-  	margin-bottom: 10px;
-  	font-family: 'Andada', serif; 
-  	width: 200px; 
-  	text-align: left;
-}
-
-.form {
-	text-align: left;
-}
-
-textarea {
-	width: 300px;
-	height: 75px;
-}
-
-.btn {
-	width: 100px;
-	height: 50px;
-	font-family: 'Andada', serif;
-	font-size: 20px;
-	font-weight: bold;
-	color: #F6F7BD;
-	background-color: #6B7A8F;
-	border-radius: 10px 10px 10px 10px;
-	border-color: #6B7A8F;
-	margin: 5px auto;
-}
-
-/* === SOCIAL MEDIA JQUERY=== */
-	
-#socialside {
-    position: absolute;
-    top: 100px;
-    left: 0;
-}
-
-.mainul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: right;
-}
-
-.scli {
-    position: relative;
-    width: 150px;
-    list-style: none;
-    border-radius: 0 8px 8px 0;
-    margin-left: -120px;
-    left:0;    
-}
-
-.scli img {
-    background-color: #333;
-    border-radius: 0 5px 5px 0;
-    height: 30px;
-    position: absolute;
-    right: 0;
-    top:0;
-}
-
-.scli li {
-    height: 30px;
-    line-height: 30px;
-    margin: 5px -15px;
-    padding-right: 50px;
-    font-family: "Archivo Black";
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
+  	bottom: 0;
+  	width: 100%;
+  	height: 60px;
 }
 
 /* === MEDIA QUERIES === */
@@ -753,8 +632,25 @@ textarea {
 		margin-left: 7% !important;
 	}
 	
-	#portfolio {
-		padding-bottom: 30px;
+	.processIcon {
+		margin-right: 40px !important;
+		text-align: center;
+		padding: 10px;
+	}
+	
+	.process-title {
+		padding: 10px 50px;
+	}
+	
+	.social-media-icons {
+	display: inline;
+	padding: 20px;
+	font-size: 2.5em;
+	}
+	
+	footer {
+	padding-top: 200px;
+	color: #3c3c3c;
 	}
 }
 	

@@ -166,61 +166,97 @@
 				</div>  <!--end col -->
 			</div>  <!--end row -->
 		</div>  <!--end container -->
-	</div> <!--Main -->
+	</div> <!--portfolio -->
 	
 	<!--PROCESS SECTION
 	============================================= -->
 	<div id="process">
 		<h2 class="label-header">Process</h2>
-		<div class = "processcontainer">
-		
-			<div class="processcontentwrapper"> <div class="processIcon">
-				<i class="fa fa-question-circle fa-4x"></i>
-				<h3>Information Gathering</h3>
-			</div>
-            <div class="processtext">
-            	<p>The first step is to gather information. This is where I gain an understanding of <span id="you">you</span> - what your goals and dreams are, and how the website can help you achieve these goals.  I will be asking a lot of questions during this phase to determine the purpose of the site, your target audience, and what kind of information the audience will be looking for.</p>
-        	</div>
-       
-			<div class="processcontentwrapper"> <div class="processIcon">
-				<i class="fa fa-pencil-square fa-4x"></i>
-				<h3>Planning</h3>
-			</div>
-            <div class="processtext">
-            	<p>At this phase we will take the information gathered in phase one and develop a site map. We will need to determine whether you will incorporate a content management system, and what forms will be needed.</p>
-        	</div>
-        
-        	<div class="processcontentwrapper"> <div class="processIcon">
-				<i class="fa fa-paint-brush fa-4x"></i>
-				<h3>Design</h3>
-			</div>
-            <div class="processtext">
-            	<p>Now is the time to design the look and feel of your site.  The design will be based on your target audience and company logo. Your input will be needed throughout this phase to make sure that you are completely satisfied with the final site design.</p>
-        	</div>
-        	
-        	<div class="processcontentwrapper"> <div class="processIcon">
-				<i class="fa fa-code fa-4x"></i>
-				<h3>Development</h3>
-			</div>
-            <div class="processtext">
-            	<p>It is at this phase that your website is created. The home page will be developed first, followed by interior pages. This is the point where we add interactive content forms, shopping carts, etc. </p>
-        	</div>
-        	
-        	<div class="processcontentwrapper"> <div class="processIcon">
-				<i class="fa fa-check-circle fa-4x"></i>
-				<h3>Testing and Delivery</h3>
-			</div>
-            <div class="processtext">
-            	<p>At this point we will test the website to make sure that there is complete functionality of forms, scripts are working properly, and that the site is compatible between browsers. The files will be uploaded to your server. Domain name and web hosting services are available if needed. </p>
-        	</div>
-        	
-        	<div class="processcontentwrapper"> <div class="processIcon">
-				<i class="fa fa-wrench fa-4x"></i>
-				<h3>Maintenance</h3>
-			</div>
-            <div class="processtext">
-            	<p>I would be happy to continue working with you on updating your site in the future.  I can help with regular backups, Wordpress upgrades, additional plugin installation, etc.  </p>
-        	</div>
+		<div class="container process-container">
+			<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12">
+					<div class="processcontentwrapper"> <div class="processIcon">
+						<i class="fa fa-question-circle fa-4x"></i></div></div>
+				</div><!--end col -->
+				<div class="col-lg-2 col-md-2 col-xs-12">
+						<h3 class="process-title">Information Gathering</h3>	
+				</div><!--end col -->
+				<div class="col-lg-9 col-md-9 col-xs-12">
+					<div class="processtext">
+						<p>The first step is to gather information. This is where I gain an understanding of <span id="you">you</span> - what your goals and dreams are, and how the website can help you achieve these goals.  I will be asking a lot of questions during this phase to determine the purpose of the site, your target audience, and what kind of information the audience will be looking for.</p>
+					</div>
+       			</div><!--end col -->
+       		</div><!--end row -->
+       		<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12">
+					<div class="processcontentwrapper"> <div class="processIcon">
+						<i class="fa fa-pencil-square fa-4x"></i></div></div>
+					</div><!--end col -->
+					<div class="col-lg-2 col-md-2 col-xs-12">
+						<h3 class="process-title">Planning</h3>
+					</div><!--end col -->
+					<div class="col-lg-9 col-md-9 col-xs-12">		
+						<div class="processtext">
+							<p>At this phase we will take the information gathered in phase one and develop a site map. We will need to determine whether you will incorporate a content management system, and what forms will be needed.</p>
+						</div>
+        			</div><!--end col -->
+       		</div><!--end row -->
+       		<div class="row">
+       			<div class="col-lg-1 col-md-1 col-xs-12">
+        			<div class="processcontentwrapper"> <div class="processIcon">
+					<i class="fa fa-paint-brush fa-4x"></i></div></div>
+				</div><!--end col -->
+				<div class="col-lg-2 col-md-2 col-xs-12">
+					<h3 class="process-title">Design</h3>
+				</div><!--end col -->
+				<div class="col-lg-9 col-md-9 col-xs-12">	
+					<div class="processtext">
+						<p>Now is the time to design the look and feel of your site.  The design will be based on your target audience and company logo. Your input will be needed throughout this phase to make sure that you are completely satisfied with the final site design.</p>
+					</div>
+        		</div><!--end col -->
+       		</div><!--end row -->
+       		<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12">
+					<div class="processcontentwrapper"> <div class="processIcon">
+						<i class="fa fa-code fa-4x"></i></div></div>
+				</div><!--end col -->
+				<div class="col-lg-2 col-md-2 col-xs-12">
+					<h3 class="process-title">Development</h3>
+				</div><!--end col -->
+				<div class="col-lg-9 col-md-9 col-xs-12">	
+					<div class="processtext">
+						<p>It is at this phase that your website is created. The home page will be developed first, followed by interior pages. This is the point where we add interactive content forms, shopping carts, etc. </p>
+					</div>
+        		</div><!--end col -->
+       		</div><!--end row -->
+       		<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12">
+					<div class="processcontentwrapper"> <div class="processIcon">
+						<i class="fa fa-check-circle fa-4x"></i></div></div>
+				</div><!--end col -->
+				<div class="col-lg-2 col-md-2 col-xs-12">
+					<h3 class="process-title">Testing and Delivery</h3>
+				</div><!--end col -->
+				<div class="col-lg-9 col-md-9 col-xs-12">
+					<div class="processtext">
+						<p>At this point we will test the website to make sure that there is complete functionality of forms, scripts are working properly, and that the site is compatible between browsers. The files will be uploaded to your server. Domain name and web hosting services are available if needed. </p>
+					</div>
+        		</div><!--end col -->
+       		</div><!--end row -->
+       		<div class="row">
+				<div class="col-lg-1 col-md-1 col-xs-12">
+					<div class="processcontentwrapper"> <div class="processIcon">
+						<i class="fa fa-wrench fa-4x"></i></div></div>
+				</div><!--end col -->
+				<div class="col-lg-2 col-md-2 col-xs-12">
+					<h3 class="process-title">Maintenance</h3>
+				</div><!--end col -->
+				<div class="col-lg-9 col-md-9 col-xs-12">
+					<div class="processtext">
+						<p>I would be happy to continue working with you on updating your site in the future.  I can help with regular backups, Wordpress upgrades, additional plugin installation, etc.  </p>
+					</div>
+				</div><!--end col -->
+       		</div><!--end row -->
         </div> <!--Process Container -->
 	</div> <!--Process-->
 
@@ -228,48 +264,36 @@
 	============================================= -->
 	<div name="contact" id="contact">
     	<h2 class="label-header">Contact</h2>
-    
-    	<div id="socialside">
-    	</div>
- 
-    	<button id="show">Hire me!</button>
-    	<iframe id="formSending"></iframe>
-    	<div id="modal-container">
-    	<section id="modal-box">
-    	<button id="hide">x</button>
- 	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-md-offset-3">
+    	<h4 class="contact-subheading">GET IN TOUCH</h4>
+    	<ul class="social-contact">
+    		<li class="social-media-icons">
+    			<a class="social-link" href="https://www.facebook.com/developerjen/" target="_blank">
+    			<i class="fa fa-facebook" aria-hidden="true"></i></a>
+    		</li>
+    		<li class="social-media-icons">
+    			<a class="social-link"  href="https://twitter.com/jensensei" target="_blank">
+    			<i class="fa fa-twitter" aria-hidden="true"></i></a>
+    		</li>
+    		<li class="social-media-icons">
+    			<a class="social-link"  href="https://www.linkedin.com/in/jenniferanton" target="_blank">
+    			<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+    		</li>
+    		<li class="social-media-icons">
+    			<a class="social-link"  href="http://www.jenniferanton.com" target="_blank">
+    			<i class="fa fa-wordpress" aria-hidden="true"></i></a>
+    		</li>
+    	</ul> 	
 	
-			<?php echo $result; ?>
-			<h2 id="newsletter-header">Lets talk about how we can work together!</h2>
-			<p class="lead">Please get in touch - I'll get back to you as soon as possible.</p>
-			<form method="post">
-				<div class="form-group">
-					<label for="name">Your Name:</label>
-					<input type="text" name="name" class="form-control" placeholder="Name" value="<?php echo $_POST['name']; ?>" />
-      			</div> <!--form-group-->
-      			
-      			<div class="form-group">
-					<label for="email">Your Email:</label>
-					<input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo $_POST['email']; ?>"  />
-      			</div> <!--form-group-->
-      			
-      			<div class="form-group">
-					<label for="comment">Your Comment:</label>
-					<textarea name="comment" class="form-control"><?php echo $_POST['comment']; ?></textarea>
-      			</div> <!--form-group-->
-      			
-      			<input type="submit" name="submit" data-background= "static" class="btn" value="Submit" />
-      			
-    		</form>
-    		
-    	</div> <!--col-->
-    </div> <!--row-->
-</div> <!--container-->
+	
+	<!--FOOTER
+	============================================= -->
+	
+	<footer>
+		<div class="col-sm-3">
+			<p>&copy; 2017 Jennifer Anton</p>
+		</div> <!--col--> 
+	</footer>
 </div>
-
 <!-- Latest compiled and minified JavaScript -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
